@@ -1,0 +1,25 @@
+modLoader = "javafml"
+loaderVersion = "[36,)"
+license = "All Rights Reserved"
+
+[[mods]]
+modId = "pixelfix"
+version = "1.0"
+displayName = "pixelfix" #mandatory
+authors = "Asa" #optional
+description = '''
+
+'''
+[[dependencies.pixelfix]] #optional
+modId = "forge" #mandatory
+mandatory = true #mandatory
+versionRange = "[36,)" #mandatory
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.pixelfix]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.16.5,1.17)"
+ordering = "NONE"
+side = "BOTH"

@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "kr.icyonline.pixelfix.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "pixelfix.refmap.json",
+  "mixins": [
+    "MixinEntityListeners"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
